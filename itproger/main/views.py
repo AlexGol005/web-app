@@ -7,3 +7,6 @@ def index(reqest):
 def about(reqest):
     return HttpResponse("<h4>Про нас</h4>")
 
+def course(reqest):
+    return HttpResponse("<h3>Страница курсов</h3><p>Это страница курсов!</p>")
+
